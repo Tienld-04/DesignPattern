@@ -1,0 +1,14 @@
+package org.example.behavioral_patterns.Strategy;
+
+// 3. Context
+public class PaymentContext {
+    private PaymentStrategy strategy;
+
+    public void setStrategy(PaymentStrategy strategy) {
+        this.strategy = strategy;
+    }
+
+    public void executePayment(double amount) {
+        strategy.pay(amount);
+    }
+}
