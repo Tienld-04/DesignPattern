@@ -16,7 +16,6 @@ public class TranslatorAdapter implements IVietnameseTarget {
 
 
     }
-
     private String translate(String vietnameseWords) {
         return "Hello";
     }

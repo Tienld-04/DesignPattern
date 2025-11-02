@@ -16,7 +16,7 @@ public class Phone implements Prototype{
         this.os = os;
         this.language = language;
     }
-
+    @Override
     public void setLanguage(String language) {
         this.language = language;
     }
@@ -28,7 +28,7 @@ public class Phone implements Prototype{
             throw new RuntimeException(e);
         }
     }
-
+    @Override
     public void showInfo() {
         System.out.println("Model: " + model +
                 " | CPU: " + cpu +
