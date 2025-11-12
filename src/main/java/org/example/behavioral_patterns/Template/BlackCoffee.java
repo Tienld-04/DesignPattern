@@ -9,6 +9,7 @@ class BlackCoffee extends Beverage {
 
     // Override hook method
     protected boolean wantsCondiments() {
+        System.out.println("Không thêm phụ gia cho cà phê đen.");
         return false;
     }
 }
