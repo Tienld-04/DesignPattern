@@ -1,4 +1,4 @@
-package org.example.creational_patterns.Singleton;
+package org.example.creational_patterns.Singleton.test;
 
 
 import java.io.ObjectStreamException;

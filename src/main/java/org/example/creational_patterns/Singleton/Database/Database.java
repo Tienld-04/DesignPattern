@@ -1,4 +1,4 @@
-package org.example.creational_patterns.Singleton.test;
+package org.example.creational_patterns.Singleton.Database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
