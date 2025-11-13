@@ -2,7 +2,7 @@ package org.example.behavioral_patterns.State;
 
 public class TestState {
     public static void main(String[] args) {
-        ATMMachine atm = new ATMMachine();
+        ATMMachineContext atm = new ATMMachineContext();
 
         System.out.println("Test 1 - Giao dịch thành công: ");
            //Chưa có thẻ

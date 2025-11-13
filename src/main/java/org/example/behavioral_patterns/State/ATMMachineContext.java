@@ -1,9 +1,9 @@
 package org.example.behavioral_patterns.State;
 // Context - ATM Machine
-class ATMMachine {
+class ATMMachineContext {
     private ATMState currentState;
 
-    public ATMMachine() {
+    public ATMMachineContext() {
         currentState = new NoCardState(this);
     }
 

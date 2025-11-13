@@ -13,8 +13,6 @@ public class TranslatorAdapter implements IVietnameseTarget {
         System.out.println("Send: " + words);
         String vietnameseWords = translate(words);
         adaptee.receive(vietnameseWords);
-
-
     }
     private String translate(String vietnameseWords) {
         return "Hello";

@@ -1,4 +1,4 @@
-package org.example.structural_patterns.Flyweight.Coffe;
+package org.example.structural_patterns.Flyweight.Coffee;
 
 // ConcreteFlyweight
 class CoffeeType implements Coffee {

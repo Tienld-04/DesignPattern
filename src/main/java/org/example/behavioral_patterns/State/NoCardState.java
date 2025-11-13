@@ -2,9 +2,9 @@ package org.example.behavioral_patterns.State;
 
 //ConcreteState: State 1: Không có thẻ
 class NoCardState implements ATMState {
-    private ATMMachine context;
+    private ATMMachineContext context;
 
-    public NoCardState(ATMMachine context) {
+    public NoCardState(ATMMachineContext context) {
         this.context = context;
     }
 

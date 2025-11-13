@@ -2,9 +2,9 @@ package org.example.behavioral_patterns.State;
 
 // ConcreteState : State 3: Đã xác thực
 class AuthenticatedState implements ATMState {
-    private ATMMachine context;
+    private ATMMachineContext context;
 
-    public AuthenticatedState(ATMMachine context) {
+    public AuthenticatedState(ATMMachineContext context) {
         this.context = context;
     }
 

@@ -2,7 +2,7 @@ package org.example.behavioral_patterns.Strategy;
 
 // 3. Context
 public class PaymentContext {
-    private PaymentStrategy strategy;
+    private PaymentStrategy strategy;  // Interface
 
     public void setStrategy(PaymentStrategy strategy) {
         this.strategy = strategy;

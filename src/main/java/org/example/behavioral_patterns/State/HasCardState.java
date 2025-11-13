@@ -2,9 +2,9 @@ package org.example.behavioral_patterns.State;
 
 //ConcreteState: State 2: Có thẻ
 class HasCardState implements ATMState {
-    private ATMMachine context;
+    private ATMMachineContext context;
 
-    public HasCardState(ATMMachine context) {
+    public HasCardState(ATMMachineContext context) {
         this.context = context;
     }
 

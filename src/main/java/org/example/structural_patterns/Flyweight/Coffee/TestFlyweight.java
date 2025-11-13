@@ -1,4 +1,4 @@
-package org.example.structural_patterns.Flyweight.Coffe;
+package org.example.structural_patterns.Flyweight.Coffee;
 
 public class TestFlyweight {
     public static void main(String[] args) {

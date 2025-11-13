@@ -1,4 +1,4 @@
-package org.example.structural_patterns.Flyweight.Coffe;
+package org.example.structural_patterns.Flyweight.Coffee;
 
 // Flyweight Factory
 class CoffeeFactory {
